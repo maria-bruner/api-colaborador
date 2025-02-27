@@ -1,0 +1,21 @@
+{
+  "name": "api-colaboradores",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "api-colaboradores": "file:",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.6.7",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.6"
+  }
+}
