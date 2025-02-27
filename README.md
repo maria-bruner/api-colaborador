@@ -80,4 +80,4 @@ O projeto utiliza SQLite como banco de dados. O arquivo do banco será criado au
 - O arquivo `.env` não é versionado por segurança
 - O sistema gera dois tipos de logs automaticamente na pasta `/logs`:
   * Arquivo `.log` com registros de texto
-  * Arquivo `.csv` com os mesmos registros em formato tabular.
+  * Arquivo `.csv` com os mesmos registros em formato CSV
