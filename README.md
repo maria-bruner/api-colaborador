@@ -78,4 +78,6 @@ O projeto utiliza SQLite como banco de dados. O arquivo do banco será criado au
 
 - Configure todas as variáveis de ambiente antes da execução
 - O arquivo `.env` não é versionado por segurança
-- Os logs do cron podem ser acompanhados na pasta `logs` da sua aplicação.
+- O sistema gera dois tipos de logs automaticamente na pasta `/logs`:
+  * Arquivo `.log` com registros de texto
+  * Arquivo `.csv` com os mesmos registros em formato tabular.
